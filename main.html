@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Proyecto Ecommerce</title>
+  <link rel="stylesheet" href="./maindesign.css"> <!--linkear el estilo -->
+
+  <style>
+    .attribution { font-size: 18px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <main class="main-container">
+    <header class="header">
+      <div class="header__navigation">
+        <img class="header__menu" src="./images/icon-menu.svg" alt="menu icon">
+        <img class="header__logo" src="./images/logo.svg" alt="logo">
+
+        <nav class="navbar">
+          <ul class="navbar__items">
+            <li><a class="navbar__link" href="#">Collections</a></li>
+            <li><a class="navbar__link" href="Acerca-de.html">About</a></li>
+            <li><a class="navbar__link" href="registro.html">Registrarse</a></li>
+            <li><a class="navbar__link" href="login.html">Iniciar Sesion</a></li>
+          </ul>
+        </nav>
+        <!-- Formulario de búsqueda -->
+        <form class="search-form" action="index.html" method="get">
+          <input type="text" name="query" placeholder="Buscar...">
+          <input type="submit" value="Buscar">
+        </form>
+        <!-- Fin del formulario de búsqueda -->
+
+      </div>
+
+      <!-- inicio modal navbar -->
+      <div class="modal-navbar__background">
+        <nav class="modal-navbar">
+          <img class="modal-navbar__close-icon" src="./images/icon-close.svg" alt="" srcset="">
+          <ul class="modal-navbar__items">
+            <li><a class="modal-navbar__link" href="main.html">Inicio</a></li>
+            <li><a class="modal-navbar__link" href="#">Men</a></li>
+            <li><a class="modal-navbar__link" href="#">Women</a></li>
+            <li><a class="modal-navbar__link" href="Acerca-de.html">About</a></li>
+            <li><a class="modal-navbar__link" href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <!-- final modal navbar -->
+</head>
+<body>
+    <div class="header__cart-avatar">
+        <div class="header__cart">
+          <div class="header__cart--notification">0</div>
+          <img src="./images/icon-cart.svg" alt="">
+        </div>
+        <img class="header__avatar" src="./images/image-avatar.png" alt="">
+      </div>
+    </header>
+
+
+  <section class="gallery">
+    <h2>Productos Destacados</h2>
+    <!-- HTML -->
+    <div class="gallery">
+        <div class="product">
+            <a href="index.html" class="product-link">
+              <img src="images/image-product-1.jpg" alt="Zapatilla 1">
+              <p>Zapatilla 1</p>
+              <p>$125,00</p>
+            </a>
+          </div>
+
+        <div class="product">
+            <a href="index.html" class="product-link">
+                <img src="images/image-product-2.jpg" alt="Zapatilla 2">
+                <p>Zapatilla 2</p>
+                <p>$130,00</p>
+            </a>
+        </div>
+
+        <div class="product">
+            <a href="index.html" class="product-link">
+                <img src="images/image-product-3.jpg" alt="Zapatilla 3">
+                <p>Zapatilla 3</p>
+                <p>$135,00</p>
+            </a>
+        </div>
+
+        <div class="product">
+            <a href="index.html" class="product-link">
+                <img src="./images/image-product-4.jpg" alt="Zapatilla 4">
+                <p>Zapatilla 4</p>
+                <p>$140,00</p>
+            </a>
+        </div>
+    </div>
+</section>
+
+    <!-- inicio cart modal -->
+    <div class="cart-modal">
+        <p class="cart-modal__title">Carrito</p>
+            <div class="cart-modal__chekout-container">
+                <p class="cart-empty">Your cart is empty</p>
+            </div>
+    </div>
+        <!-- fin cart modal -->
+
+  <script src="./maindesign.js"></script>
+</body>
+</html>
+
+  <footer class="attribution"> 
+    <a href="https://github.com/LucasCto" target="_blank"> Avisos Legales </a>.
+  </footer>
+
+</body>
+</html>
