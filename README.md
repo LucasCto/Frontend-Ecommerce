@@ -14,11 +14,11 @@ This is a modern and responsive frontend application for an eCommerce platform s
 # Installation
 
    * Clone the repository:
-git clone https://github.com/yourusername/shoestore-frontend.git
+git clone https://github.com/LucasCto/Frontend-Ecommerce.git
 
 --Navigate to the project directory:
     cd shoestore-frontend
     -Open the main.html file in your preferred web browser to view the application.
 
-Usage
+--Usage
 Simply open the main.html file in your web browser to start using the application.
